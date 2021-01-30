@@ -1,0 +1,137 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body .container {
+  background: -webkit-gradient(linear, right top, left top, color-stop(-50%, rgba(0, 0, 0, 0.5)), to(black)), url(/images/IMG.jpg);
+  background: linear-gradient(to left, rgba(0, 0, 0, 0.5) -50%, black), url(/images/IMG.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+body .container .header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .container .header .logo {
+  width: 110px;
+  height: 70px;
+  margin-top: 10px;
+}
+
+body .container .header nav a {
+  text-decoration: none;
+  color: white;
+  padding: 8px;
+  font-weight: bold;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body .container .header .input-form {
+  width: 170px;
+  height: 20px;
+  padding: 2px;
+  background-color: transparent;
+  color: white;
+  border: 1px solid white;
+  opacity: 70%;
+}
+
+body .container .banner {
+  width: 40%;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 80vh;
+  margin-left: 50px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body .container .banner .banner-title {
+  font-size: 7em;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+body .container .banner .banner-detial {
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body .container .banner .banner-detial ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  list-style-type: none;
+}
+
+body .container .banner .banner-detial ul li {
+  padding: 5px;
+}
+
+body .container .banner .banner-detial ul li:nth-last-child(5) {
+  background: red;
+}
+
+body .container .banner .banner-body {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  padding: 5px;
+}
+
+body .container .banner .banner-body p {
+  text-justify: justify;
+}
+
+body .container .banner .banner-btn {
+  padding: 5px;
+}
+
+body .container .banner .banner-btn .play {
+  background: red;
+  width: 90px;
+  height: 35px;
+  font-size: 18px;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+body .container .banner .banner-btn .list {
+  background: transparent;
+  width: 90px;
+  height: 35px;
+  font-size: 18px;
+  color: white;
+  border: 2px solid rgba(116, 113, 113, 0.5);
+  cursor: pointer;
+}
+
+body .container .banner .banner-trail button {
+  position: relative;
+  top: 80px;
+  left: 20px;
+  font-size: 20px;
+  color: white;
+  background: transparent;
+  border: none;
+}
+/*# sourceMappingURL=style.css.map */
