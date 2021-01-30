@@ -68,7 +68,8 @@
                  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
                  padding: 5px;
                  p {
-                     text-justify: justify;
+                     text-justify: inter-word;
+                     text-align: justify;
                      
                  }
              }
@@ -93,6 +94,10 @@
                     border: 2px solid rgba(116, 113, 113, 0.5);
                     cursor: pointer;
                 }
+                .list:hover{
+                    background: red;
+                    color: white;
+                }
              }
              .banner-trail {
                  button {
@@ -103,7 +108,10 @@
                      color: white;
                      background: transparent;
                      border: none;
-
+                     cursor: pointer;
+                     i {
+                         font-size: 1.2em;
+                     }
                  }
              }
 

@@ -98,7 +98,8 @@ body .container .banner .banner-body {
 }
 
 body .container .banner .banner-body p {
-  text-justify: justify;
+  text-justify: inter-word;
+  text-align: justify;
 }
 
 body .container .banner .banner-btn {
@@ -125,6 +126,11 @@ body .container .banner .banner-btn .list {
   cursor: pointer;
 }
 
+body .container .banner .banner-btn .list:hover {
+  background: red;
+  color: white;
+}
+
 body .container .banner .banner-trail button {
   position: relative;
   top: 80px;
@@ -133,5 +139,10 @@ body .container .banner .banner-trail button {
   color: white;
   background: transparent;
   border: none;
+  cursor: pointer;
+}
+
+body .container .banner .banner-trail button i {
+  font-size: 1.2em;
 }
 /*# sourceMappingURL=style.css.map */
